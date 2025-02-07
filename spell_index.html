@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spells</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="js/spell_index.js"></script>
+  <style>
+    body{
+      font-family: ‘Harry Potter’;
+      src: url(‘http://www.fontsaddict.com/fontface/harry-potter.TTF’);
+      }
+      </style>
+</head>
+<body class="bg-gray-100 font-sans">
+  <!-- Navbar (from previous step) -->
+  <nav class="bg-gray-800 p-4">
+    <div class="flex justify-between items-center">
+      <div class="text-white text-xl font-bold">Harry Potter</div>
+      <div class="hidden lg:flex space-x-6">
+        <a href="books_index.html" class="text-white">Books</a>
+        <a href="character_index.html" class="text-white">Characters</a>
+        <a href="house_index.html" class="text-white">Houses</a>
+        <a href="spell_index.html" class="text-white">Spells</a>
+      </div>
+    </div>
+  </nav>
+
+  <h1 class="text-3xl text-center my-6 text-red-600">Spells</h1>
+  <div id="spell-container" class="space-y-8 px-4"></div>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white text-center p-4 mt-8">
+    <p>Data provided by <a href="https://github.com/fedeperin/potterapi" target="_blank" class="underline">Potter API</a></p>
+    <p>View API objects: 
+      <a href="https://potterapi-fedeperin.vercel.app/en/books" target="_blank" class="underline">Books</a> | 
+      <a href="https://potterapi-fedeperin.vercel.app/en/characters" target="_blank" class="underline">Characters</a> | 
+      <a href="https://potterapi-fedeperin.vercel.app/en/houses" target="_blank" class="underline">Houses</a> | 
+      <a href="https://potterapi-fedeperin.vercel.app/en/spells" target="_blank" class="underline">Spells</a>
+    </p>
+  </footer>
+</body>
+</html>
