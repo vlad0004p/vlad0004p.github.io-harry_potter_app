@@ -1,0 +1,23 @@
+{
+  "name": "harry_potter_app",
+  "version": "1.0.0",
+  "description": "Harry Potter API Aplication",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vlad0004p/harry_potter_app.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vlad0004p/harry_potter_app/issues"
+  },
+  "homepage": "https://github.com/vlad0004p/harry_potter_app#readme",
+  "devDependencies": {
+    "sass": "^1.84.0"
+  }
+}
